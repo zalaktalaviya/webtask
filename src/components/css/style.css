@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain {
+    margin: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-whether {
+    background-image:url("https://th.bing.com/th/id/R.add3d6803aebf6dbc92de0e8cafe5b4c?rik=W935ZpSqkDTNDw&riu=http%3a%2f%2fhdwpro.com%2fwp-content%2fuploads%2f2016%2f12%2fLandscape-Desktop-Wallpaper.jpg&ehk=w9jhwVbzU5WlYMJNfid7VPqK7gwkByvjNBGHmEe9%2bTw%3d&risl=&pid=ImgRaw&r=0") ;
+    /* background: #86cbe5; */
+    height: 314px;
+    width: 233px;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.weather_title{
+    color:#fff;
+    margin-left: 10px;
+    font-family: "poppins";
+}   
+
+.fa-street-view {
+    color: #fff;
+    animation: example 3s infinite alternate;
+}
+
+.weather-til {
+    text-align: center;
+    padding: 14px 0px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    font-family: 'poppins';
+    text-shadow: 0px 2px 2px #86cbe5;
+    font-weight: 100;
+    color: #ff6f8a;
+}
+
+/* .wave{
+    opacity: 0.2;
+    background-color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 24%;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform-origin: 50% 48%;
+    border-radius: 50%;
+    animation: rotate 3000ms linear infinite;
+    z-index: 1;
+} */
+
+/* .wave-three{
+    position: static;
+    animation: rotate 3000ms linear infinite;
+    opacity: 0.1;
+    z-index: 2 !important;
+}
+
+.wave-two{
+    animation: rotate 3000ms linear infinite;
+    opacity: 0.2;
+    z-index: 3 !important;
+} */
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes example {
+    from{
+        transform: translateY(-0.1rem);
+    }
+    to{
+        transform: translateY(0.1rem);
+    }
+
+}
+
+p {
+    font-size: 14px;
+    font-family: 'poppins';
+    color: #5f5d5d;
+}
+
+input.input-field {
+    border: none;
+    border-radius: 39px;
+    padding: 10px;
+    outline: none;
+}
+
+h2.location {
+    font-size: 24px;
+    font-family: 'poppins';
+    color: #fff;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    left: 12%;
+    right: 0;
+    top: 34%;
+    color: #8f8888;
+}
+

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-title{
+    text-align: center;
+    padding: 10px;
+    font-family: 'josefin Sans';
+    font-weight: 400;
+    color: blueviolet;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container{
+    max-width: 1291px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-tabs{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-tab{
+    display: flex;
+    flex: 0 0 33.33%;
+    max-width: 32.33%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 16px 0 0 10px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.title-ti {
+    font-size: 26px;
+    font-family: 'josefin Sans';
+    font-weight: 200;
+}
+
+.price {
+    color: #1bc15c;
+    font-size: 18px;
+    font-family: 'josefin Sans';
+    font-weight: unset;
+    margin-bottom: 8px;
+}
+
+.order-button {
+    background: #1bc15c;
+    border: none;
+    outline: none;
+    margin-left: 142px;
+    padding: 8px 13px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'josefin Sans';
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+.menu-contain {
+    padding: 10px 7px;
+}
+
+.image-tit {
+    width: 150px;
+    height: 181px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.fade_button {
+    text-align: center;
+    justify-content: space-around;
+    margin: 45px 0;
+}
+
+.fde{
+    background: #ffff40;
+    border: none;
+    margin: 0 0 0 10px;
+    border-radius: 2px;
+    padding: 8px 14px;
+    font-size: 15px;
+    font-family: 'poppins';
+    cursor: pointer;
+    transition: 0.4s all;
+    outline: none;
+}
+
+.fde:hover{
+    background-color: #000;
+    transition: 0.4s all;
+    color: #fff;
+    
+}
